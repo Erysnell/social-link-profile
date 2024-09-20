@@ -64,9 +64,50 @@ body {
     transition: background-color 0.3s ease;
 
 
-    
+
     &:hover {
         background-color: hsl(75, 94%, 57%);
         color: black;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 400px;
+        padding: 1.5rem;
+    }
+
+    .card-container {
+        width: auto;
+        padding: 1.5rem;
+    }
+
+    .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .location {
+        font-size: 0.9rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    .nav-item {
+        font-size: 0.9rem;
+        padding: 0.6rem 3rem;
+        margin: 0.5rem 0; 
     }
 }
